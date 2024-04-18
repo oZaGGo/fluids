@@ -1,0 +1,34 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Fluids</title>
+</head>
+<body>
+    <h1 class="title">FLUIDS</h1>
+    <div class="buttonContainer">
+        <input type="file" id="fileInput" style="display: none;">
+        <button class="upload" onclick="document.getElementById('fileInput').click()">Upload a .txt</button>
+        <button class="startB" onclick="readFile()">START</button>
+    </div>
+    <pre id="fileContent">
+        1. Upload a .txt file containing a drawing.
+        2. The drawing have to be 10x15 (max) and made with "*".
+        2. Start the simulation with the "start" button.
+
+        Example file content:
+
+        ******* *** ***
+        ******* *** ***
+        ******* *** ***
+        ******* *** ***
+        ***************
+        ***********
+        ***************
+
+    </pre>
+    <script src="script.js"></script>
+</body>
+</html>

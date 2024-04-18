@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #7468f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Background/stars.gif);
+    z-index: 0;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 6vh;
+    text-shadow: 0.5px 0.5px 30px rgb(188, 230, 237);
+}
+
+.buttonContainer {
+    display: flex;
+}
+
+.upload {
+    border: 1px solid rgba(255, 255, 255, 0.471);
+    border-radius: 20px;
+    background-color: #007bff00;
+    color: #ffffff7d;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.upload:hover {
+    background-color: rgba(255, 255, 255, 0.471);
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.startB {
+    border: 1px solid rgb(154, 177, 255);
+    border-radius: 20px;
+    background-color: #007bff00;
+    color: rgb(154, 177, 255);
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.startB:hover {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(154, 177, 255);
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#fileContent {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    z-index: 2;
+    margin-top: 6vh;
+    text-shadow: 15px 16px 4px rgba(0, 0, 0, 0.355);
+}
