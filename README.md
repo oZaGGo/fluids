@@ -1,7 +1,7 @@
 # fluids
 This is a project I made while learning about functions, arrays, and file reading in JavaScript. You can upload an ASCII art text file made with '*' characters, and it will create a basic fluid simulation. It's a fun way to practice coding while exploring ASCII art and basic animations.
 
-- My Journer:
+- My Journey:
 
 Creating a function to parse the text extracted from the .txt file and convert it into an array while preserving the original proportions was quite challenging. I had to carefully consider how to iterate through each character in the ASCII art, keeping track of rows and columns to ensure accurate representation.
 
